@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+// import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 // También se puede aplicar destructuración en el Props
@@ -14,15 +15,15 @@ const PrimerApp = ({saludo, subtitulo} ) => {
     const numero = 33;
     const decimal = 24.567;*/
     return (
-        <Fragment >
-            <h1>{ saludo }</h1>
+        <>
+            <h1>{ saludo }!!!</h1>
             {/*            <h1>{ saludo }</h1>
          <h1>{ arreglo }</h1>
             <h1>{ numero }</h1>
             <h1>{ decimal }</h1>
             <pre>{ JSON.stringify( objeto ) }</pre>*/}
             <p>{ subtitulo }</p>
-        </Fragment>
+        </>
     );
 }
 
